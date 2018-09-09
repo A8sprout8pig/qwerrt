@@ -1,0 +1,18 @@
+/*
+.yellow {
+	background: yellow;
+}
+*/
+div p {
+	background: blue;
+}
+p,span {
+	background: yellow
+}
+.a1{
+	color: #fff;
+	font-size: 36px;
+}
+.s1{
+	background: yellow
+}

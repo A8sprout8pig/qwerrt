@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<style type="text/css">
+			*{
+				font-size: 36px;
+			}
+			.under-line{
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<dl>
+			<dt>所属学院</dt>
+			<dd>计算机</dd>
+			<dd>化学</dd>
+			<dd>艺术</dd>
+
+			<dt>所属专业</dt>
+			<dd>qwe</dd>
+			<dd>123</dd>
+		</dl>
+
+		<progress value="0" max="10" id="progress"></progress>
+
+		<input type="color" name="color"/>
+
+		<canvas id="canvas"></canvas>
+
+		<script type="text/javascript">
+			var progressDom = document.getElementById('progress');
+			progressDom.value = 0;
+			setInterval(()=>{
+				progressDom.value += 1;
+			},1000);
+
+			var canvasDom = document.getElementById('canvas');
+			canvasDom.width = 200;
+			canvasDom.height = 200;
+			var context = canvasDom.getContext('2d');
+			context.strokeStyle = "red";
+			context.moveTo(0,0);
+			context.lineWidth = 10;
+			context.lineTo(100,100);
+			context.arc(120,100,20,0,Math.PI)
+			context.stroke();
+		</script>
+	</body>
+</html>

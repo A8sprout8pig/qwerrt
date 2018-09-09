@@ -1,0 +1,37 @@
+#type {
+	width:220px;  /* 设置id为type的名称宽度为220px*/ 	
+}
+#title {                                /*将id为title的名字增加样式*/
+	font-size:18px;						/*字体大小为18px*/
+	text-indent:1em;                     /*将段落的第一行缩进 1em*/                                                               
+	background-color:#0f7cbf;          /*背景颜色为#0f7cbf*/                                                                 
+	line-height:35px;                /*行高 35px*/                                                                   
+	color:#FFF;                       /*字体颜色为#fff*/                                                                  
+	font-weight:bold;                /*字体加粗*/                                                                   
+}
+.secondTitle {                       /*设置class 为secondTitle的名字增加样式*/
+	background-color:#e4f1fa;        /*背景颜色为#e4f1fa;*/                                      
+	text-indent:2em;                /*将段落的第一行缩进 2em*/
+	font-size:14px;                /*字体大小为14px*/
+	line-height:30px;              /*行高30px*/
+	font-weight:bold;              /*字体加粗*/
+}
+.secondTitle a {                   
+	color:#0f7cbf;                /*将class为secondTitle名字中的a元素内容设置颜色为#0f7cbf*/
+	text-decoration:none;        
+}
+.secondTitle a:hover {
+	text-decoration:underline;    /*当鼠标放上去时内容增加下划线*/
+}
+p {
+	line-height:20px;            /*将p元素中的段落设置行高为20px，段落的第一行缩进 1em */
+	text-indent:1em;
+}
+p a {
+	color:#666666;				/*将p元素中超链接部分内容颜色设置为#666666*/
+	text-decoration:none;	
+}
+p a:hover {
+	color:#F60;					/*当鼠标放上去时颜色显示为#F60，并且增加下划线*/
+	text-decoration:underline;
+}

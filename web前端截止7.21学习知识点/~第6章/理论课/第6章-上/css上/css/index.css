@@ -1,0 +1,19 @@
+div{
+	background: red;
+}
+.classbox{
+	background: blue;
+}
+#idbox{
+	background: green;
+}
+
+* {
+	margin:0;
+	background: black;
+	color: white;
+}
+/*
+优先级：
+id > class > tag > *
+*/

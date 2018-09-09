@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		p{
+			font: italic bold 36px "楷体";
+			/*background-color: #f00;*/
+		}
+		p span{
+			font-style: normal;
+			color: #000;
+		}
+		.p1{
+			text-align: left;
+			text-decoration: none;
+		}
+		.p2{
+			text-align: right;
+			text-decoration: underline;
+		}
+		.p3{
+			text-align: center;
+			text-decoration: overline;
+		}
+		/*
+			如果left right center  盒模型中的padding
+		*/
+		.p4{
+			padding-left: 4em;
+			text-decoration: line-through;
+		}
+		img {
+			/*
+				图文排列时  垂直方向上对齐， 该属性放在 img 上
+			*/
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+
+<div>
+	<p class="p1">123</p>
+	<p class="p2">456</p>
+	<p class="p3">789</p>
+	<p class="p4">jdq</p>
+</div>
+
+<p>
+	<span>北京Beijing</span> <a href="">afsdf</a>欢迎你 <img src="http://upload-images.jianshu.io/upload_images/4968905-12b9931739d0f099.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/375/h/300"/>
+</p>
+</body>
+</html>

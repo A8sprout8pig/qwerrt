@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	/*
+	1. 父子选择器 div p， 选择  p,div
+	2. 单位 px em   (rem)
+	3. 颜色 十六进制颜色  rgb颜色  (rgba hsl hsla)  橙色：rgb(255,120,0)  #ff6600 -> #f60
+	*/
+		body{
+			font-family: "黑体"
+		}
+		p .beijing {
+			font-weight: 700; /* normal普通 bold加粗   200 ~ 700 */
+			font-style: italic;
+			font-size: 36px; /* px em */
+			color: rgb(255,120,0);
+		}
+	</style>
+</head>
+<body>
+
+<p><b class="beijing">北京</b>欢迎你</p>
+<p>welcome to <b class="beijing">Bei Jing</b></p>
+
+<p class="beijing"></p>
+</body>
+</html>

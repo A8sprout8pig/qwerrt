@@ -1,0 +1,30 @@
+@charset "gb2312";
+/* CSS Document */
+body{margin:0px;}
+div {
+	padding:5px;
+	font-size:12px;
+	line-height:25px;
+}
+#father {
+	border:1px #666 solid;
+	margin:10px;
+	position:relative;
+}
+#first {
+	background-color:#FC9;
+	border:1px #B55A00 dashed;
+}
+#second {
+	width:200px;
+	height:200px;
+	background-color:#CCF;
+	border:1px #0000A8 dashed;
+	position:absolute;
+	top:200px;
+	right:30px;
+}
+#third {
+	background-color:#C5DECC;
+	border:1px #395E4F dashed;
+}
